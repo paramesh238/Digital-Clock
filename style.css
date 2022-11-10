@@ -1,0 +1,47 @@
+body{
+    background-color:white;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.container > .panel_1,.panel_2{
+    margin: 3% 10%;
+    width: 80%;
+    height: 260px;
+    background-color: rgba(57, 39, 196, 0.42);
+    border: 3px solid black;
+}
+
+.container .clock_1,.clock_2{
+    margin: 4% 10%;
+    padding: 0;
+    width: 80%;
+    height:60% ;
+    background-color: rgb(227, 161, 208);
+    border: 5px solid whitesmoke;
+    border-radius: 8px;
+    color: white;
+    font-family: Audiowide;
+}
+
+.container .clock_2{
+    border: 5px solid black;
+    color: black;
+    font-size: medium;
+}
+
+#time1, #time2 {
+    margin: 5px;
+    padding: 10px;
+    font-size: 100px;
+}
+
+#title {
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: dodgerblue;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
